@@ -1,6 +1,6 @@
 import p5 from "p5";
-import vertexShader from "./vertex.glsl?url";
-import fragmentShader from "./fragment.glsl?url";
+import vertexShader from "./vert.glsl?url";
+import fragmentShader from "./frag.glsl?url";
 import "./style.css";
 
 new p5((p) => {
